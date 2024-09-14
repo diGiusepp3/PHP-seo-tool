@@ -17,6 +17,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
     <?php endif; ?>
 </section>
 
+<form action="/backend/competition/seo-analysis.php" method="post">
+    <input type="submit" value="Bekijk Beste Zoekwoorden">
+</form>
+
+
+
 <section id="features">
     <h2 class="text-center">Online SEO Software for Superior Website Optimization</h2>
     <h3 class="text-center">Webmagic provides powerful SEO tools and insights to enhance your website\'s performance and visibility.</h3>

@@ -1,6 +1,9 @@
 <?php
+
+require $_SERVER['DOCUMENT_ROOT'].'/ini.inc';
+include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
 function fetch_google_suggestions($keyword) {
-    $url = "http://suggestqueries.google.com/complete/search?client=firefox&q=" . urlencode($keyword);
+    $url = "https://suggestqueries.google.com/complete/search?client=firefox&q=" . urlencode($keyword);
 
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
@@ -109,8 +112,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </li>
         <?php endforeach; ?>
     </ul>
-<?php endif; ?>
+<?php endif;
 
-</body>
-</html>
+include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
+
 
