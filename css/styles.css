@@ -1,0 +1,292 @@
+@font-face {
+  font-family: "webmagicFont";
+  src: url("/fonts/Lean.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.primary-gradient {
+  background: rgb(2, 0, 36);
+  background: -moz-linear-gradient(257deg, rgb(2, 0, 36) 0%, rgb(185, 82, 243) 70%, rgb(0, 0, 0) 100%);
+  background: -webkit-linear-gradient(257deg, rgb(2, 0, 36) 0%, rgb(185, 82, 243) 35%, rgb(0, 0, 0) 100%);
+  background: linear-gradient(257deg, rgb(2, 0, 36) 0%, rgb(185, 82, 243) 35%, rgb(0, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#000000",GradientType=1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: webmagicFont, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+}
+body header {
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+}
+body header nav ul {
+  list-style: none;
+  padding: 0;
+}
+body header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+body header nav ul li a {
+  color: black;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+body header nav ul li a:hover {
+  color: chocolate;
+}
+body main {
+  margin: 0;
+  padding: 0;
+}
+body main #hero {
+  color: lightgrey;
+  padding: 20px;
+  text-align: center;
+}
+body main #hero .btn {
+  background-color: lightgrey;
+  color: rgb(185, 82, 243);
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+body main #features {
+  background: black;
+  width: 100%;
+  margin: 0;
+  padding: 2em;
+}
+body main #features ul {
+  list-style: none;
+  padding: 0;
+  margin: 1em;
+}
+body main #features ul li {
+  border: 1px solid #08008a;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.home {
+  background: url("/img/abstract/1920x1080/_25498297-57bc-4f70-9715-025bf27c46d0.png") #FAFAFB no-repeat center center fixed;
+  color: white;
+  text-align: center;
+}
+.home #hero {
+  padding: 2.5em;
+  font-size: 3em;
+  font-weight: bold;
+  color: black;
+  text-align: start;
+  margin: 2em;
+}
+.home #hero h1 {
+  font-weight: 800;
+}
+.home #hero p {
+  font-size: 32px;
+  line-height: 1.5;
+  width: 50%;
+}
+.home #hero .btn {
+  background-color: #77496F;
+  color: #74AAB9;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.home #hero .btn:hover {
+  background-color: #74AAB9;
+  color: #77496F;
+}
+.home .cards-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+.home .cards-holder .card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home .cards-holder .card-header {
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+}
+.home .cards-holder .card-header .card-title h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: rgb(185, 82, 243);
+}
+.home .cards-holder .card-header .title-pri-gray h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #626373;
+}
+.home .cards-holder .card-header .title-pri-pinkish h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #DC6D79;
+}
+.home .cards-holder .card-header .title-pri-blue h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #59AED1;
+}
+.home .cards-holder .card-body {
+  padding: 15px;
+  flex: 1;
+  color: lightgrey;
+}
+.home .cards-holder .card-body p {
+  margin: 0;
+  font-size: 1em;
+}
+.home .cards-holder .card-footer {
+  padding: 15px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+.home .cards-holder .card-footer .btn {
+  background-color: rgb(185, 82, 243);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.home .cards-holder .card-footer .btn:hover {
+  background-color: #a622f0;
+}
+.home .cards-holder .card-footer .btn-pri-gray {
+  background: #626373;
+}
+.home .cards-holder .card-footer .btn-pri-pinkish {
+  background: #DC6D79;
+}
+.home .cards-holder .card-footer .btn-pri-blue {
+  background: #59AED1;
+}
+
+.account {
+  background: url("/img/abstract/1920x1080/_7545530d-e075-408b-8f6f-1390108975d0.png") #FAFAFB no-repeat center center fixed;
+  background-size: cover;
+}
+
+.registration-container, .login-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+.registration-container h2, .login-container h2 {
+  color: rgb(185, 82, 243);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.registration-container .g_id_signin, .login-container .g_id_signin {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.registration-container form, .login-container form {
+  display: flex;
+  flex-direction: column;
+}
+.registration-container form label, .login-container form label {
+  font-size: 14px;
+  color: rgb(2, 0, 36);
+  margin-bottom: 5px;
+}
+.registration-container form input[type=text],
+.registration-container form input[type=email],
+.registration-container form input[type=password], .login-container form input[type=text],
+.login-container form input[type=email],
+.login-container form input[type=password] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.registration-container form .terms-container, .login-container form .terms-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 12px;
+  color: lightgrey;
+  margin-bottom: 15px;
+}
+.registration-container form .terms-container a, .login-container form .terms-container a {
+  color: rgb(185, 82, 243);
+  text-decoration: none;
+}
+.registration-container form .terms-container a:hover, .login-container form .terms-container a:hover {
+  text-decoration: underline;
+}
+.registration-container form .terms-container p, .login-container form .terms-container p {
+  margin: 10px 0;
+}
+.registration-container form input[type=submit], .login-container form input[type=submit] {
+  background-color: rgb(185, 82, 243);
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.registration-container form input[type=submit]:hover, .login-container form input[type=submit]:hover {
+  background-color: #a622f0;
+}
+
+footer {
+  color: lightgrey;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: 100vh;
+}
+
+@media (max-width: 768px) {
+  .cards-holder .card {
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

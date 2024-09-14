@@ -1,0 +1,54 @@
+# Ignore vendor directories
+/vendor/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore build and distribution directories
+/build/
+/dist/
+
+# Ignore IDE and editor files
+/.idea/
+/.vscode/
+
+# Ignore logs and cache files
+/logs/
+/cache/
+
+# Ignore lock files
+/composer.lock
+/package-lock.json
+
+# Ignore compiled and minified files
+*.min.css
+*.scss
+
+# Ignore test and coverage files
+/coverage/
+/tests/
+
+# Ignore environment specific files
+/.env
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+/ini.inc
+
+# Ignore editor and IDE specific files
+*.idea
+*.vscode
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any files or directories starting with a dot
+.*
+
+# Ignore any files or directories starting with a tilde
+~*
+
+# Ignore any files or directories with the name "node_modules"
+node_modules

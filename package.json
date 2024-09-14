@@ -1,0 +1,17 @@
+{
+  "name": "seo.webmagic.be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diGiusepp3/seo-tool.git"
+  },
+  "private": true,
+  "dependencies": {
+    "google-auth-library": "^9.13.0"
+  }
+}
