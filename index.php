@@ -68,8 +68,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/header.php';
         </div>
     </div>
 </section>
-<!--<iframe src="https://www.yeschat.ai/i/gpts-ZxWyZqMi-h4ckGPT" width="800" height="500" style="max-width: 100%;"></iframe>
-<iframe src="https://www.yeschat.ai/i/gpts-9t557kEGh2f-Black-Hat-Hacker-GPT" width="800" height="500" style="max-width: 100%;"></iframe>
---><?php
+
+<?php
 include $_SERVER['DOCUMENT_ROOT'] . '/footer.php';
 ?>
